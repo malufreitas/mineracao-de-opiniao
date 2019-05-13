@@ -1,6 +1,6 @@
 # mineracao-de-opiniao-tcc
 
-Instalar as dependencias do tweepy><br>
+Instalar as dependencias do tweepy:<br>
 $pip install tweepy<br>
 
 
