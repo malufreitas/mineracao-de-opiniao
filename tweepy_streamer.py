@@ -118,20 +118,19 @@ class TweetAnalyzer():
     """
 
     # Limpa o tweet com uma expressão regular
-    def clean_tweet(self, tweet):
-        return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split())
+    #def clean_tweet(self, tweet):
+    #    return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split())
 
-    def analyze_sentiment(self, tweet):
-        analysis = TextBlob(self.clean_tweet(tweet))
+    #def analyze_sentiment(self, tweet):
+    #    analysis = TextBlob(self.clean_tweet(tweet))
         
-        if analysis.sentiment.polarity > 0:  # Positivo
-            return 1
-        elif analysis.sentiment.polarity == 0:  # Neutro
-            return 0
-        else:  # Negativo
-            return -1
-
-
+    #    if analysis.sentiment.polarity > 0:  # Positivo
+    #        return 1
+    #    elif analysis.sentiment.polarity == 0:  # Neutro
+    #        return 0
+    #    else:  # Negativo
+    #        return -1
+    
     # Converte os tweets para data frame
     def tweets_to_data_frame(self, tweets):
         # Pega o text do tweet, e faz isso com todos os tweets (loop)
