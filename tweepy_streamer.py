@@ -151,13 +151,13 @@ class TweetAnalyzer():
 if __name__ == "__main__":
     # Palavras para filtrar no twitter
     hash_tag_list = ['xiaomi mi9']
-    fetched_tweets_filename = "tweets.txt"
+    #fetched_tweets_filename = "tweets.txt"
 
     # Printar a função de pegar tweets
     #print(twitter_client.get_user_timeline_tweets(1))
 
     twitter_streamer = TwitterStreamer()
-    twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
+    #twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
 
     #twitter_client = TwitterClient()
     #tweet_analyzer = TweetAnalyzer()
