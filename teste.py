@@ -37,7 +37,7 @@ class StdOutListener(StreamListener):
 
 if __name__ == "__main__":
     fetched_tweets_filename = "tweets.csv"
-    hash_tag_list = ["amazon prime"]
+    hash_tag_list = ["xiaomi"]
 
     listener = StdOutListener(fetched_tweets_filename)
 
