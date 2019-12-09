@@ -1,3 +1,3 @@
-# mineracao-de-opiniao-tcc
+# mineracao-de-opiniao
 
 Repositório de código
