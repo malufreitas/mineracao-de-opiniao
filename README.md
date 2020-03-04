@@ -1,3 +1,7 @@
-# mineracao-de-opiniao
+# ANÁLISE DE SENTIMENTOS E OPINIÕES POR MEIO DA REDE SOCIAL TWITTER
 
-Repositório de código
+Repositório de código do trabalho de conclusão de curso apresentado à coordenadoria do Curso de Sistemas de Informação do Instituto Federal do Espírito Santo como requisito parcial para a obtenção do título de Bacharel em Sistemas de Informação.
+
+Orientadora: Prof.ª Dra. Kelly Assis de Souza Gazolli.
+
+Resumo: A opinião é considerada muito importante para o comportamento das pessoas, principalmente para o processo de tomada de decisão em uma empresa. Esse trabalho apresenta a mineração de opinião, outros conceitos desta área da computação e propõe um estudo de caso onde o objeto de estudo é uma empresa chinesa de produtos eletrônicos. Para isso ser possível, foi extraída uma base de dados obtida através da rede social Twitter, visto que as redes sociais se tornaram importantes meios de comunicação com trocas de informação de maneira instantânea. Neste trabalho, foi utilizado um algoritmo de aprendizado de máquina, a máquina de vetores de suporte (SVM), para realizar uma análise de opiniões em textos escritos em português. O objetivo desse trabalho é classificar as opiniões obtidas realizando um processamento dos dados e apresentar sua polaridade de maneira resumida e estatística. Observou-se que as opiniões têm um papel importante na reputação das empresas, concluiu-se que as opiniões podem interferir na tomada de decisão.
